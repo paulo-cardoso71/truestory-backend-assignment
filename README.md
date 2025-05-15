@@ -55,15 +55,16 @@ http://localhost:<your-port>/swagger
 
 2. POST /api/Products
 
-Request body:
-{
-  "name": "Notebook Gamer",
-  "data": "RTX 3060, 16GB RAM, SSD"
-}
+   Request body:
+
+   {
+   "name": "Notebook Gamer",
+   "data": "RTX 3060, 16GB RAM, SSD"
+   }
 
 3. DELETE /api/Products/{id}
 
-Delete a product by ID.
+   Delete a product by ID.
 
 ## 🧪 Validation and Error Handling
 
