@@ -37,7 +37,7 @@ dotnet run
 
 http://localhost:<your-port>/swagger
 
-📌 API Endpoints:
+## 📌 API Endpoints
 
 1. GET /api/Products:
 Retrieve products from the mock API with optional name filter and pagination.
@@ -62,7 +62,7 @@ Request body:
 3. DELETE /api/Products/{id}
 Delete a product by ID.
 
-🧪 Validation and Error Handling:
+## 🧪 Validation and Error Handling
 
 name is required for POST requests
 
@@ -71,7 +71,7 @@ Returns status code 400 for invalid models
 Handles API errors with descriptive messages (500, 404, etc.)
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 TruestoryApi/
 ├── Controllers/
@@ -81,7 +81,7 @@ TruestoryApi/
 ├── Program.cs
 └── README.md
 
-✍️ Author
+## ✍️ Author
 Paulo Eder Medeiros Cardoso
 
 
