@@ -54,6 +54,7 @@ http://localhost:<your-port>/swagger
    Example: /api/Products?name=mac&page=1&pageSize=3
 
 2. POST /api/Products
+
 Request body:
 {
   "name": "Notebook Gamer",
@@ -61,6 +62,7 @@ Request body:
 }
 
 3. DELETE /api/Products/{id}
+
 Delete a product by ID.
 
 ## 🧪 Validation and Error Handling
