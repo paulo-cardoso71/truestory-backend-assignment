@@ -40,17 +40,18 @@ http://localhost:<your-port>/swagger
 ## 📌 API Endpoints
 
 1. GET /api/Products:
-Retrieve products from the mock API with optional name filter and pagination.
 
-Query Parameters:
+   Retrieve products from the mock API with optional name filter and pagination.
 
-name (optional): substring to filter by name
+   Query Parameters:
 
-page (default: 1)
+   name (optional): substring to filter by name
 
-pageSize (default: 5)
+   page (default: 1)
 
-Example: /api/Products?name=mac&page=1&pageSize=3
+   pageSize (default: 5)
+
+   Example: /api/Products?name=mac&page=1&pageSize=3
 
 2. POST /api/Products
 Request body:
